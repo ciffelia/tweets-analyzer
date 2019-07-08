@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://tweets-analyzer.netlify.com/* https://tweets-analyzer.ciffelia.com/:splat 301!
