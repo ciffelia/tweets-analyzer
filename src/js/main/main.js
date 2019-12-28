@@ -44,5 +44,5 @@ setupAm4Themes()
 
 $('body').on({
   'dragenter dragover': onDrag,
-  'drop': onDrop
+  drop: onDrop
 })

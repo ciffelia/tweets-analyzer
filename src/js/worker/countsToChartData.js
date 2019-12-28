@@ -1,5 +1,5 @@
 const countsToChartData = counts => {
-  let chartData = []
+  const chartData = []
 
   for (const [date, value] of Object.entries(counts)) {
     chartData.push({ date, value })
