@@ -11,7 +11,7 @@
     "fix": "standard --fix"
   },
   "dependencies": {
-    "@amcharts/amcharts4": "^4.7.18",
+    "@amcharts/amcharts4": "^4.7.21",
     "jquery": "^3.4.1",
     "moment": "^2.24.0",
     "papaparse": "^5.1.1"
