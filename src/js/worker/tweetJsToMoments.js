@@ -1,7 +1,7 @@
 import moment from 'moment'
 
 const tweetsToMoments = tweets => {
-  const timestamps = tweets.map(tweet => tweet.created_at)
+  const timestamps = tweets.map(tweet => (tweet.tweet || tweet).created_at)
 
   const moments = timestamps.map(timestamp =>
     moment(timestamp, 'ddd MMM DD HH:mm:ss ZZ YYYY')
