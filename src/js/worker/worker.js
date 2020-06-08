@@ -29,5 +29,8 @@ const onMessage = async ({ data: file }) => {
 }
 
 self.addEventListener('message', message => {
-  onMessage(message).catch(err => { setTimeout(() => { throw err }) })
+  onMessage(message)
+    .catch(err => {
+      setTimeout(() => { throw err })
+    })
 })
